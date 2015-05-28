@@ -1,0 +1,6 @@
+# config/database.yml
+ 
+adapter: sqlite3
+database: db/scrpr.db
+pool: 5
+timeout: 1000
