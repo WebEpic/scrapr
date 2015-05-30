@@ -1,5 +1,15 @@
-require "scrapr/version"
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+
+require 'pry'
+
+require 'scrapr/version'
+require 'scrapr/init_db'
+require 'scrapr/github'
+require 'scrapr/user'
 
 module Scrapr
-  # Your code goes here...
+  class App
+    def initialize
 end
+
+binding.pry
